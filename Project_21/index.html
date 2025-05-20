@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 8th Monthsary My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Couples Background -->
+    <div class="animated-couples-bg">
+        <div class="couple couple-1">
+            <!-- Cute SVG Couple 1 -->
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <circle cx="20" cy="30" r="12" fill="#ffe0e6"/>
+                <ellipse cx="20" cy="50" rx="15" ry="10" fill="#f9b6b6"/>
+                <circle cx="50" cy="30" r="12" fill="#d0eaff"/>
+                <ellipse cx="50" cy="50" rx="15" ry="10" fill="#b6d6f9"/>
+                <!-- Arms -->
+                <rect x="10" y="40" width="40" height="5" rx="2.5" fill="#f9b6b6"/>
+                <rect x="20" y="40" width="40" height="5" rx="2.5" fill="#b6d6f9"/>
+            </svg>
+        </div>
+        <div class="couple couple-2">
+            <!-- Cute SVG Couple 2 -->
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <circle cx="20" cy="30" r="12" fill="#ffe0e6"/>
+                <ellipse cx="20" cy="50" rx="15" ry="10" fill="#f9b6b6"/>
+                <circle cx="50" cy="30" r="12" fill="#d0eaff"/>
+                <ellipse cx="50" cy="50" rx="15" ry="10" fill="#b6d6f9"/>
+                <!-- Arms -->
+                <rect x="10" y="40" width="40" height="5" rx="2.5" fill="#f9b6b6"/>
+                <rect x="20" y="40" width="40" height="5" rx="2.5" fill="#b6d6f9"/>
+            </svg>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flower-garden">
+            <div class="flower flower-1">
+                <div class="petals"></div>
+                <div class="center"></div>
+            </div>
+            <div class="flower flower-2">
+                <div class="petals"></div>
+                <div class="center"></div>
+            </div>
+            <div class="flower flower-3">
+                <div class="petals"></div>
+                <div class="center"></div>
+            </div>
+        </div>
+
+        <div class="heart-container">
+            <div class="heart"></div>
+        </div>
+        
+        <div class="content">
+            <h1 class="title">Happy 8th Monthsary</h1>
+            <div class="months-counter">
+                <span id="months">8</span> Months of Love
+            </div>
+            
+            <div class="memory-gallery">
+                <div class="gallery-title">Our Journey Together</div>
+                <!-- To add your own images, update the galleryImages array in script.js -->
+                <div class="gallery-container" id="gallery">
+                    <!-- Images will be added dynamically -->
+                </div>
+            </div>
+
+            <div class="message-container">
+                <div class="message">
+                    <p>Every moment with you is a treasure...</p>
+                    <p>Thank you for being my everything.</p>
+                    <p>8 months of beautiful memories with you ❤️</p>
+                </div>
+            </div>
+
+            <div class="interactive-section">
+                <button id="loveButton" class="love-button">
+                    <i class="fas fa-heart"></i> Click for Love
+                </button>
+                <div id="floatingHearts"></div>
+            </div>
+
+            <div class="countdown">
+                <h2>Time Together</h2>
+                <div class="timer">
+                    <div class="time-block">
+                        <span id="days">0</span>
+                        <span class="label">Days</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="hours">0</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="minutes">0</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="time-block">
+                        <span id="seconds">0</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Background Music: New YouTube Song -->
+    <iframe width="0" height="0" src="https://www.youtube.com/embed/1q0iUIzy1jk?autoplay=1&loop=1&playlist=1q0iUIzy1jk" frameborder="0" allow="autoplay"></iframe>
+    <!-- Lightbox for viewing gallery images -->
+    <div id="lightbox-overlay" class="lightbox-overlay" style="display:none;">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Memory View" />
+    </div>
+</body>
+</html> 
